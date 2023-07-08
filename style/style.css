@@ -19,6 +19,21 @@ body {
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+    cursor: pointer;
+}
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    cursor: pointer;
+    
+}
+.btn-outline:hover {
+    background-color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    color: white;
+    
+    
 }
 .section-title {
     color: #181818;
@@ -98,6 +113,9 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* About Section */
 .about {
     border-radius: 10px;
@@ -125,10 +143,21 @@ main {
 }
 .skills-container {
     display: flex;
+    gap: 24px;
 }
 .skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    margin: 0 20px;
     border-radius: 5px;
+}
+.skill-des {
+    color: #757575;
+}
+
+/* Resume section */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
