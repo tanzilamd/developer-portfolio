@@ -228,3 +228,16 @@ footer {
     resize: vertical;
     width: 100%;
 }
+.hide {
+    display: none;
+}
+
+/* Reponsive Web Design */
+@media screen and (max-width: 576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+    #what-i-do-des {
+        padding: 20px;
+    }
+}
